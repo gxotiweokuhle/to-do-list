@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.heading{
+    text-align: center;
+    background-color: blueviolet;
+    width: 300px;
+}
+button{
+   background-color: white;
+   font-size: 20px;
+   margin-top: 20px;
+   border-radius: 10px;
+   padding: 10px;
+}
+input{
+    padding-top: 11px;
+    padding-bottom: 11px;
+   
+}
+.listing{
+    background-color: slategray;
+    width: 300px;
+    height: 100px;
+}
+li{
+    list-style-type: none;
+}
+.results{
+    background-color: plum;
+}
