@@ -69,7 +69,6 @@ addTaskButton.addEventListener("click", (e) => {
     todoArray.forEach((list, ind) => {
       listBox.innerHTML += `
       <div>
-      let
       <p>${list}</p>
       <button onclick='edit(${ind})' class='edit'>Edit</button>
       <button onclick='deleteTodo(${ind})' class='delete'>Delete</button>
