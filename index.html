@@ -8,18 +8,36 @@
     <title>To-do app</title>
 </head>
 <body>
-    <div class="heading">
+   <!---- <div class="heading">
         <h1>To-Do-List</h1>
     </div>
    
     <div class="listing">
         <button onclick="sorting()" id="sorttodo">Sort</button>
-        <input type="text" id="inputfield" placeholder="add items to your to do list...">
+        <input name="text" type="text" id="inputfield" placeholder="add items to your to do list...">
         <button onclick="adding()" id="addtodo">Add</button>
     </div>
 
-   <div class="results" id="display"></div>
-   
+   <div class="results" id="display"></div>-->
+ 
+      <div class="display">
+        <h1>To-Do List App</h1>
+        <div class="">
+            <button onclick="sort()" id="sort">sort</button>
+          <input name="text" id="text" placeholder="Add Todo" class="userinput" />
+          <input type="hidden" id="saveIndex" />
+
+          <button id="add-task-btn" class="adding">Add</button>
+          <button style="display: none" id="save-todo-btn">Save Todo</button>
+        </div>
+      </div>
+      <div id="listBox"></div>
+    </div>
+  </div> 
+
+
+
+
 
     <script src="./script/code.js"></script>
 </body>
