@@ -87,7 +87,7 @@ addTaskButton.addEventListener("click", (e) => {
 
    function edit(ind) {
     saveInd.value = ind;
-    let todo = localStorage.getItem("todolist");
+    let todolist = localStorage.getItem("todolist");
     todoArray = JSON.parse(todolist);
     text.value = todoArray[ind];
     addTaskButton.style.display = "none";
